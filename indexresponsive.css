@@ -1,0 +1,68 @@
+@media screen and (max-width:768px) {
+
+    .main{
+       flex-direction: column-reverse;
+       gap: 5rem;
+    }
+    .main-right{
+        position: relative;
+        height: 12rem;
+        width: 20rem;
+        box-shadow: 5px 15px 46px 0px rgba(0,0,0,0.75);
+        animation: mainimage 3s 0s 1 linear;
+        margin-inline: 1rem;
+    }
+    .main{
+        padding-block: 2.7rem;
+    }
+    .container{
+        min-width: 100vw;
+        overflow: hidden;
+    }
+    .right-nav-list{
+        display: none;
+    }
+    .smallbar{
+        display:inline;
+        position: relative;
+        margin-right:2rem;
+    }
+
+    .goat{
+        height:12rem;
+        width:20rem;
+     margin-bottom: 1rem;
+     margin-left: 1rem;
+    }
+    .vh2{
+        color: yellow;
+        font-size: 1rem;
+        margin-left: -2rem;;
+    }
+    .mid{
+        background-color: black;
+        color: white;
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left-mid h3{
+       margin-left:-2rem;
+
+     
+    }
+    .footer{
+        min-height:45vh;
+        width:100vw;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding:2rem;
+        
+    }
+}
+
